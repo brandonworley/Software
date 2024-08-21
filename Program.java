@@ -1,4 +1,8 @@
 public class Program
 {
- abc
+
+    public Program()
+    {
+        
+    }
 }
