@@ -2,7 +2,7 @@ public class Inheritor2 extends Abstract{
 
     public void mystery(String s)
     {
-        System.out.println(s + "2");
+        System.out.println("2 Times: " + s + " " + s);
     }
     
 }
