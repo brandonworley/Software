@@ -1,8 +1,8 @@
 public class Inheritor extends Abstract{
 
-    public void mystery()
+    public void mystery(String s)
     {
-        
+        System.out.println(s);
     }
     
 }
