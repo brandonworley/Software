@@ -4,5 +4,6 @@ public class Inheritor2 extends Abstract{
     {
         System.out.println("2 Times: " + s + " " + s);
     }
+
     
 }

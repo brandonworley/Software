@@ -19,14 +19,18 @@ public class Demo {
             }
 
             if (a == 1) {
-                i.mystery(s);
+                poly(i, s);
                 System.exit(0);
-            } else if (a == 2){
-                i2.mystery(s);
+            } else if (a == 2) {
+                poly(i2, s);
                 System.exit(0);
             }
             System.out.println("Please type 1 or 2");
         }
 
+    }
+
+    public static void poly(Abstract aa, String ss) {
+        aa.mystery(ss);
     }
 }

@@ -1,6 +1,9 @@
-public abstract class Abstract {
+public class Abstract {
     
-  public abstract void mystery(String s);
+  public void mystery(String s)
+  {
+    System.out.println("0 Times");
+}
   
 }
 
